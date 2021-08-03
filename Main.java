@@ -12,7 +12,7 @@ public class Main {
         //long startTime = System.nanoTime();
         //twin primes under 100
         //long counter = 0;
-        for (int i = 3; i < 1000000; i++) {
+        for (int i = 3; i < 100; i++) {
             //checking two prime numbers, B-A = 2
             if(isPrime(i) && isPrime(i+2)) {
                 int k = i+2;
